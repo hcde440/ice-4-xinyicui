@@ -9,8 +9,8 @@
 #include <ArduinoJson.h>    //
 
 
-#define wifi_ssid "University of Washington"   // user name of the wifi
-#define wifi_password ""                       // password of the wifi
+#define wifi_ssid ""        // user name of the wifi
+#define wifi_password ""    // password of the wifi
 
 //////////
 //So to clarify, we are connecting to and MQTT server
@@ -20,7 +20,7 @@
 
 #define mqtt_server "mediatedspaces.net"  //this is its address, unique to the server
 #define mqtt_user "hcdeiot"               //this is its server login, unique to the server
-#define mqtt_password "........."         //this is it server password, unique to the server
+#define mqtt_password "esp8266"         //this is it server password, unique to the server
 
 //////////
 //We also need to publish and subscribe to topics, for this sketch are going
